@@ -12,7 +12,7 @@ function App() {
 
     const KeepingServerAlive = () => {
       backendUrl.forEach((url) => {
-        fetch("https://cussrutt-workout-tracking-app.onrender.com/")
+        fetch(url)
           .then((response) => {
             console.log("Server is active for ", url);
             console.log("----------------");
