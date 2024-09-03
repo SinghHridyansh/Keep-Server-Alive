@@ -27,7 +27,7 @@ function App() {
 
     KeepingServerAlive();
 
-    const Intervalfunc = setInterval(KeepingServerAlive, 900000);
+    const Intervalfunc = setInterval(KeepingServerAlive, 600000);
 
     return () => clearInterval(Intervalfunc);
   }, []);
