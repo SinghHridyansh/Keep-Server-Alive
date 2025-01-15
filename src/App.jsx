@@ -8,6 +8,7 @@ function App() {
     const backendUrl = [
       "https://eazybytesbackend.onrender.com/",
       "https://cussrutt-workout-tracking-app.onrender.com/",
+      "https://landingpage-9d6b.onrender.com/",
     ];
 
     const KeepingServerAlive = () => {
